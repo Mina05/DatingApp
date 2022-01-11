@@ -77,7 +77,6 @@
             "ssl": true,
             "browserTarget": "client:build"
           },
-
           "configurations": {
             "production": {
               "browserTarget": "client:build:production"
