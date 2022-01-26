@@ -18,9 +18,9 @@ const routes: Routes = [
       { path: 'members/:id', component: MemberDetailComponent },
       { path: 'lists', component: ListsComponent },
       { path: 'messages', component: MessagesComponent },
-      { path: '**', component: HomeComponent, pathMatch: 'full'}, // ako nijedna od prethodnih se ne podudara vrati ga na home component :D
     ]
   },
+  { path: '**', component: HomeComponent, pathMatch: 'full'}, // ako nijedna od prethodnih se ne podudara vrati ga na home component :D
 
 ];
 
