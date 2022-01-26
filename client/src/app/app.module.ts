@@ -36,10 +36,7 @@ import { SharedModule } from './_modules/shared.module';
     BrowserAnimationsModule,
     FormsModule,
     SharedModule,
-    BsDropdownModule.forRoot(),
-    ToastrModule.forRoot({
-      positionClass: 'toast-bottom-right'
-    })
+
 
   ],
   providers: [],
