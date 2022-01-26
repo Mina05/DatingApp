@@ -36,7 +36,11 @@ import { SharedModule } from './_modules/shared.module';
     BrowserAnimationsModule,
     FormsModule,
     SharedModule,
-    BsDropdownModule.forRoot()
+    BsDropdownModule.forRoot(),
+    ToastrModule.forRoot({
+      positionClass: 'toast-bottom-right'
+    })
+
   ],
   providers: [],
   bootstrap: [AppComponent] // butstrapovanje AppComponent
