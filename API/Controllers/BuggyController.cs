@@ -1,3 +1,4 @@
+using System;
 using API.Data;
 using API.Entites;
 using Microsoft.AspNetCore.Authorization;
@@ -40,12 +41,15 @@ namespace API.Controllers
 
         public ActionResult<string> GetServerError()
         {
+
             var thing = _context.User.Find(-1);
 
             var thingToReturn = thing.ToString();
 
             return thingToReturn; 
+
         }
+           
 
         [HttpGet("bad-request")]
 
