@@ -47,7 +47,7 @@ get401Error() {
 }
 
 get400ValidationError() {
-  this.http.get(this.baseUrl + 'buggy/auth').subscribe(Response => {
+  this.http.post(this.baseUrl + 'account/register',{}).subscribe(Response => {
    console.log(Response);
   }, error => {
     console.log(error);
